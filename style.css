@@ -1,0 +1,242 @@
+.encabezado_01{
+    color: black;
+      font-size: 40pt;
+      font-weight: bold;
+      font-family: candara;
+      width: 80%;
+  }
+  
+  .encabezado_02{
+    color: black;
+      font-size: 24pt;
+      font-weight: bold;
+      font-family: candara;
+      width: 80%;
+  }
+  
+  .encabezado_03{
+    color: black;
+      font-size: 15pt;
+      font-weight: bold;
+      font-family: candara;
+      width: 80%;
+  }
+
+  .encabezado_04{
+    color: red;
+      font-size: 12pt;
+      font-weight: bold;
+      font-family: candara;
+      width: 80%;
+  }
+  
+  .tabla-cat{
+    font-family: candara;
+    border-collapse: collapse;
+    color: black;
+    margin: 25px 0;
+    font-size: 0.9cm;
+    min-width: 400px;
+    border-radius: 5px 5px 0 0;
+    overflow: hidden;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15)
+  }
+  
+  .tabla-cat thead tr{
+    background-color: #ff8820;
+    color: black;
+    text-align: left;
+  }
+  
+  .tabla-cat td{
+    padding: 12px 15px;
+  }
+  
+  .tabla-cat tbody tr{
+    border-bottom: 1px solid black;
+  }
+  
+  .tabla-cat tbody tr:nth-of-type(even){
+    background-color: #fdff9c;
+  }
+  
+  .tabla-cat tbody tr:last-of-type{
+    border-bottom: 2px solid #ff8820;
+  }
+  
+  /*.tabla-cat tbody tr.active-row{
+    font-weight: bold;
+    color: #ff8820;
+  }*/
+  
+  .tabla-quien{
+    width: 80%;
+    font-family: candara;
+    border-collapse: collapse;
+    color: black;
+    margin: 25px 0;
+    font-size: 0.9cm;
+    min-width: 100px;
+    border-radius: 5px 5px 0 0;
+    overflow: hidden;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+  }
+  
+  .tabla-quien td{
+    padding: 12px 15px;
+  }
+  
+  .tabla-quien tbody tr{
+    border-bottom: 1px solid black;
+  }
+  
+  .tabla-quien tbody tr:nth-of-type(even){
+    background-color: #fdff9c;
+  }
+  
+  .tabla-quien tbody tr:last-of-type{
+    border-bottom: 2px solid #ff8820;
+  }
+  
+  .tabla-quien tbody tr:first-of-type{
+    border-top: 2px solid #ff8820;
+  }
+  
+  
+  .tabla-cont{
+    font-family: candara;
+    text-align: left;
+    border-collapse: separate;
+    border-spacing: 100px 10px;
+    color: black;
+    margin: 25px 0;
+    font-size: 0.9cm;
+    min-width: 100px;
+    border-radius: 5px 5px 0 0;
+    overflow: hidden;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15)
+  }
+  
+  .boton_01{
+    font-family: candara;
+    font-size: 0.6cm;
+    color: white;
+    font-weight: bold;
+    background-color: #ff8820;
+    border-radius: 4px;
+    box-shadow: inset 0 0 0 0 #fff820;
+    transition: ease-out 0.3s;
+    width: 170px;
+    height: 80px;
+    outline: none;
+  }
+  
+  .boton_01:hover{
+    box-shadow: inset 170px 0 0 0 #fff820;
+    color: black;
+    cursor: pointer;
+  }
+  
+  .campo{
+    font-size: 0.9cm;
+    font-family: candara;
+    font-weight: bold;
+    color: black;
+    background: rgb(255, 248, 211);
+    border-radius: 3px;
+    resize: none;
+    width: 500px;
+    border: 10;
+  }
+  
+  #papas{
+    border-radius: 8px;
+    max-width: 80%;
+    height: auto;
+  }
+  
+  #papas2{
+    border-radius: 8px;
+    display: block;
+    width: 100%;
+    height: auto;
+  }
+  
+  #papas3{
+    border-radius: 8px;
+    width: 100%;
+    height: auto;
+  }
+  
+  #boton_02{
+    font-family: candara;
+    font-size: 0.6cm;
+    font-weight: bold;
+    color: white;
+    background-color: #ff8820;
+    border-radius: 4px;
+    box-shadow: inset 0 0 0 0 #00e946;
+    transition: ease-out 0.2s;
+    width: 150px;
+    height: 70px;
+    outline: none;
+  }
+  
+  #boton_02:hover{
+    box-shadow: inset 150px 0 0 0 #00e946;
+    color: black;
+    cursor: pointer;
+  }
+  
+  #boton_03{
+    font-family: candara;
+    font-size: 0.6cm;
+    font-weight: bold;
+    color: white;
+    background-color: #ff8820;
+    border-radius: 4px;
+    box-shadow: inset 0 0 0 0 #ff3131;
+    transition: ease-out 0.2s;
+    width: 150px;
+    height: 70px;
+    outline: none;
+  }
+  
+  #boton_03:hover{
+    box-shadow: inset 150px 0 0 0 #ff3131;
+    color: black;
+    cursor: pointer;
+  }
+  
+  .container{
+    position: relative;
+    width: 50%;
+  }
+  
+  .overlay{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: #FFE82B;
+  }
+  
+  .container:hover .overlay {
+    opacity: 1;
+  }
+  
+  .text{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -230px);
+  }
+  
+  #pades{
+    transform: none
+  }

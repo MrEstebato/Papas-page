@@ -1,0 +1,52 @@
+<html>
+  <head>
+    <meta charset="utf-8">
+    <link href="style.css" rel="stylesheet" type="text/css">
+    <script type="text/javascript" src="script.js"></script>
+  </head>
+  <body bgcolor="#FFE82B"><center>
+    <br>
+    <p class="encabezado_02">Contacto</p>
+    <p class="encabezado_03">Ingresa tus datos en el siguiente formulario para que nos contactemos contigo</p>
+    <p class="encabezado_04">Los campos con * son obligatorios</p>
+    <table class="tabla-quien" width="70%">
+      <tbody>
+        <form name="contacto">
+          <tr>
+            <td>Nombre</td>
+            <td><input name="nombre" type="text" class="campo"><nobr class="encabezado_04"> *</nobr></td>
+          </tr>
+          <tr>
+            <td>Apellido paterno</td>
+            <td><input name="app" type="text" class="campo"><nobr class="encabezado_04"> *</nobr></td>
+          </tr>
+          <tr>
+            <td>Apellino materno</td>
+            <td><input name="apm" type="text" class="campo"></td>
+          </tr>
+          <tr>
+            <td>Dirección</td>
+            <td><textarea name="dir" rows="3" class="campo"></textarea></td>
+          </tr>
+          <tr>
+            <td>Correo</td>
+            <td><input name="corr" type="text" class="campo"><nobr class="encabezado_04"> *</nobr></td>
+          </tr>
+          <tr>
+            <td>Teléfono</td>
+            <td><input name="cor" type="number" class="campo"></td>
+          </tr>
+          <tr>
+            <td colspan="3">
+              <table align="center">
+                <tr align="center">
+                  <td><input type="button" name="b1" id="boton_02" value="Enviar" onclick="enviarCont()"></td>
+                  <td><input type="reset" name="b2" id="boton_03" value="Borrar"></td>
+                </tr>
+              </table>
+            </td>
+          </tr>
+      </tbody>
+    </table>
+  </center></body>
+</html>
